@@ -6,7 +6,7 @@ public class liquidate {
         int pay = 0;
         Scanner in = new Scanner(System.in);
 
-        int dailyEarnings = money * 8;
+        int dailyEarnings = money * 2;
         System.out.print("1주일에 필요한 과외 횟수를 입력하세요: ");
         int weeklySessions = in.nextInt();
 

@@ -32,7 +32,7 @@ public class GetUser {
 		return subject;
 	}
 
-	public static int userInt() {
+	public static int userPay() {
 		Output.Output.getUserInfo("시급");
 		int pay = sc.nextInt();
 		return pay;

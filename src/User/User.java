@@ -66,22 +66,4 @@ public class User {
 	            ", hourly_wage=" + hourly_wage +
 	            '}';
 	}
-//	public void userInfoPrint() {
-//		System.out.printf("이름 : %s\n나이 : %d\n 성별 : %s\n 선택 과목 : %s\n 시급 : %d\n", name, age, gender, subject, pay);
-//		if (usertype == true)
-//			System.out.println("신분 : 학생");
-//		else
-//			System.out.println("신분 : 선생님");
-
-//		Matching.compare(name, age, gender, subject, pay, usertype);
 }
-
-//
-//public void userInfoPrint() {
-//	System.out.printf("이름 : %s\n나이 : %d\n 성별 : %s\n 선택 과목 : %s\n 시급 : %d\n", name, age, gender, subject, pay);
-//	if(usertype == true)
-//		System.out.println("신분 : 학생");
-//	else 
-//		System.out.println("신분 : 선생님");
-//	
-//	Matching.compare(name, age, gender, subject, pay, usertype);

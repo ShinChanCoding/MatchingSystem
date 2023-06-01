@@ -15,7 +15,7 @@ public class InfoPeople {
 			int age = GetUser.userAge();
 			String gender = GetUser.userGender();
 			String subject = GetUser.userSubject();
-			int money = GetUser.userInt();
+			int money = GetUser.userPay();
 			User studentInfo = new User(name, age, gender, subject, money);
 			Compare.calculateTeacherScore(UserTeacher, studentInfo);
 		}
@@ -27,7 +27,7 @@ public class InfoPeople {
 			int age = GetUser.userAge();
 			String gender = GetUser.userGender();
 			String subject = GetUser.userSubject();
-			int money = GetUser.userInt();
+			int money = GetUser.userPay();
 			User teacherInfo = new User(name, age, gender, subject, money);
 			Compare.calculateStudentScore(UserStudent, teacherInfo);
 		}
